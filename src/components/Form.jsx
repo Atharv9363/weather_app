@@ -16,6 +16,10 @@ const Form = () => {
         try {
             const response = await axios.post("https://react-weather-app-4z6n.onrender.com/" , { city });
 
+            /*Uncomment below line to run this on local server also uncomment the import for this */
+            /*And don't forgot to comment above line which contains cloud backend link  */
+            // const response = await axios.post(`${serverUrl}/`, { city });
+            
             if (response.data.cod === '404') {
                 alert('City name is incorrect.');
             } else {
