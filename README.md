@@ -34,7 +34,7 @@ This project is a weather application that allows users to search for weather co
 4. Open another terminal window/tab.
 5. Navigate to the `server` directory: `cd server`
 6. Install dependencies: `npm install`
-7. Start the backend server: `npm run de` or `npm start`
+7. Start the backend server: `npm run dev` or `npm start`
 
 ## Frontend Code
 
@@ -49,7 +49,7 @@ The backend is built using Express.js. It provides a single endpoint `/` that ac
 
 ## Deployment
 
-The application is deployed on AWS, ensuring it is accessible from any device with an internet connection.
+The application is deployed on a cloud platform, ensuring it is accessible from any device with an internet connection.
 
 ## Future Improvements
 
