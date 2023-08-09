@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import serverUrl from '../config';
+// import serverUrl from '../config';
 import { useNavigate } from 'react-router-dom';
 import cloud from '../assets/cloud.png';
 import { motion } from 'framer-motion';
@@ -14,7 +14,7 @@ const Form = () => {
         setCity('');
 
         try {
-            const response = await axios.post(`${serverUrl}/`, { city });
+            const response = await axios.post("https://react-weather-app-4z6n.onrender.com/" , { city });
 
             if (response.data.cod === '404') {
                 alert('City name is incorrect.');
