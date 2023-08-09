@@ -60,7 +60,6 @@ The application is deployed on a cloud platform, ensuring it is accessible from 
 
 This project demonstrates my proficiency in React, Express, API integration, and cloud deployment. The use of animations and responsive design enhances user experience. Feel free to explore the codebase and provide feedback.
 
-Your documentation should provide a clear overview of your project, its features, technologies used, and how to run it. Make sure to replace placeholders (like `<repository_url>`) with actual values. By presenting your project professionally and thoroughly, you can impress recruiters and anyone interested in your work.
 
 ## View Project:
 
