@@ -29,13 +29,12 @@ This project is a weather application that allows users to search for weather co
 ## Instructions
 
 1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the `frontend` directory: `cd frontend`
-3. Install dependencies: `npm install`
-4. Start the frontend server: `npm start`
-5. Open another terminal window/tab.
-6. Navigate to the `backend` directory: `cd backend`
-7. Install dependencies: `npm install`
-8. Start the backend server: `npm start`
+2. Install dependencies: `npm install`
+3. Start the frontend server: `npm start`
+4. Open another terminal window/tab.
+5. Navigate to the `server` directory: `cd server`
+6. Install dependencies: `npm install`
+7. Start the backend server: `npm run de` or `npm start`
 
 ## Frontend Code
 
